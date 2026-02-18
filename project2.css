@@ -121,22 +121,14 @@
 }
 .map-container {
   margin: 0px 50px;
-  padding: 50px;
+  padding: 40px;
   background-color: goldenrod;
   width: 750px;
 }
 body {
   background-color: rgba(128, 128, 128, 0.136);
 }
-.overview {
-  margin: 20px 50px;
-  padding: 20px 40px;
-  background-color: white;
-  width: 750px;
-}
-.overview-text {
-  padding-bottom: 20px;
-}
+
 #status {
   display: flex;
   gap: 50px;
@@ -147,16 +139,42 @@ body {
   gap: 10px;
 }
 #description,
-#Features {
+#Features,
+.overview,
+#Payment-Plan,
+#image-section,
+#contact-section {
   margin: 20px 50px;
   padding: 20px 40px;
   background-color: white;
   width: 750px;
 }
 .description-text,
-.feature-text {
+.feature-text,
+.contact-text,
+.payment-plan-text,
+.gallery-text,
+.overview-text {
   padding-bottom: 20px;
+  color: green;
 }
 #Features ul {
-  padding-left: 20px;
+  padding-left: 40px;
+}
+#Payment-Plan {
+  padding-bottom: 30px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+.image-grid img {
+  width: 170px;
+  height: 100px;
+  object-fit: cover;
+}
+#contact-section {
+  margin-bottom: 80px;
 }
