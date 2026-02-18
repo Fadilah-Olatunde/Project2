@@ -7,62 +7,72 @@
     <link rel="stylesheet" href="project2.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
-  <header class="header">
-    <div class="big-div">
-      <div>
-        <img src="Images/Jubilee_real_logo-1024x303.webp" alt="" class="logo" />
-      </div>
-      <div>
-        <ul class="nav">
-          <li><a href=""> About</a></li>
-          <li><a href="">Personal</a></li>
-          <li><a href="">Business</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Open an Account</a></li>
-          <li><a href="">Media</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Project Financed</a></li>
-        </ul>
-      </div>
-      <div>
-        <form action="" class="dropdown">
-          <select id="" name="">
-            <option value="">Internet Banking</option>
-            <option value="">Personal</option>
-            <option value="">Corporate</option>
-          </select>
-        </form>
-      </div>
-    </div>
-    <div>
-      <div class="overlay">
-        <h1 class="h1">Beacon Apartments</h1>
-        <div class="home-arrow">
-          <h3>Home</h3>
-          <h3>&rarr;</h3>
-          <h3>Beacon Apartments</h3>
+
+  <body>
+    <header class="header">
+      <div class="big-div">
+        <div>
+          <img
+            src="Images/Jubilee_real_logo-1024x303.webp"
+            alt=""
+            class="logo"
+          />
+        </div>
+        <div>
+          <ul class="nav">
+            <li><a href=""> About</a></li>
+            <li><a href="">Personal</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Open an Account</a></li>
+            <li><a href="">Media</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Project Financed</a></li>
+          </ul>
+        </div>
+        <div>
+          <form action="" class="dropdown">
+            <select id="" name="">
+              <option value="">Internet Banking</option>
+              <option value="">Personal</option>
+              <option value="">Corporate</option>
+            </select>
+          </form>
         </div>
       </div>
-    </div>
-  </header>
-  <body>
-    <div class="body-section">
       <div>
+        <div class="overlay">
+          <h1 class="h1">Beacon Apartments</h1>
+          <div class="home-arrow">
+            <h3>Home</h3>
+            <h3>&rarr;</h3>
+            <h3>Beacon Apartments</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="body-section">
+      <div class="sub-body-section">
         <img
           src="Images/pexels-oskar-gross-1074333632-34314175.jpg"
           alt=""
           class="second-image"
         />
         <h1>Beacon Apartments</h1>
-        <i class="fa fa-map-marker" style="color: green"></i>
-        <h4>Command Road, Ipaja, Lagos state.</h4>
+        <div class="location">
+          <i class="fa-solid fa-location-dot" style="color: green"></i>
+          <h4>Command Road, Ipaja, Lagos state.</h4>
+        </div>
         <h3>N 60M</h3>
       </div>
 
-      <div>
+      <div class="form">
         <form>
           <input type="text" name="" id="" placeholder="First Name" /><br />
           <input type="text" name="" id="" placeholder="Email Address" /><br />
@@ -73,9 +83,60 @@
             id=""
             placeholder="Enter Your Preferred Date of Inspection"
           /><br />
-          <input type="button" value="Submit" />
+          <input type="submit" name="" id="" value="Submit" />
         </form>
       </div>
     </div>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6787225262224!2d3.3227473740469646!3d6.686660321247743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b968df311bc81%3A0xe2d871a71338c5ac!2sGiwa%20Junction%20Bus%20Stop!5e0!3m2!1sen!2sus!4v1771409886283!5m2!1sen!2sus"
+        width="750"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <section class="overview">
+      <h2 class="overview-text">Overview</h2>
+      <div id="status">
+        <div class="status1">
+          <i
+            class="fa-solid fa-house-circle-check"
+            style="color: goldenrod"
+          ></i>
+          <p>Status: Available Ongoing</p>
+        </div>
+        <br />
+        <div class="status2">
+          <i class="fa-solid fa-warehouse" style="color: goldenrod"></i>
+          <p>Type: Residential</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="description">
+      <h2 class="description-text">Description</h2>
+      <p>
+        Beacon Apartment is a residential property financed by Jubilee-Life
+        Mortgage Bank. The project features Spacious 3 bedroom apartments
+        offering future homeowners affordable housing
+      </p>
+    </section>
+    <section id="Features">
+      <h2 class="feature-text">Features</h2>
+      <ul>
+        <li>3 bedrooms all ensuite</li>
+        <li>Facility management for property</li>
+        <li>
+          Rest assured with our comprehensive security measures and 24/7
+          security personnel.
+        </li>
+        <li>Ample parking space for your convenience.</li>
+      </ul>
+    </section>
   </body>
 </html>

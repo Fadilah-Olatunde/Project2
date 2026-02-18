@@ -67,13 +67,96 @@
   padding-top: 20px;
 }
 .second-image {
-  width: 800px;
+  width: 750px;
   height: 300px;
   object-fit: cover;
 }
 .body-section {
-  padding: 50px;
-  margin: 20px;
+  padding: 20px 50px;
   display: flex;
-  gap: 100px;
+  gap: 50px;
+}
+.location {
+  display: flex;
+  gap: 12px;
+  padding-top: 10px;
+}
+.sub-body-section h1 {
+  padding-top: 10px;
+}
+.sub-body-section h3 {
+  margin-top: 15px;
+  padding: 10px 20px 10px 20px;
+  background-color: green;
+  max-width: max-content;
+  color: white;
+  font-size: 24px;
+}
+.sub-body-section {
+  background-color: white;
+  padding: 40px;
+}
+.form [type="text"],
+.form [type="number"] {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  width: 300px;
+  color: black;
+}
+.form {
+  background-color: green;
+  padding: 10px;
+  width: 400px;
+  height: 50vh;
+}
+.form [type="submit"] {
+  background-color: goldenrod;
+  border: transparent;
+  width: 327px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+}
+.map-container {
+  margin: 0px 50px;
+  padding: 50px;
+  background-color: goldenrod;
+  width: 750px;
+}
+body {
+  background-color: rgba(128, 128, 128, 0.136);
+}
+.overview {
+  margin: 20px 50px;
+  padding: 20px 40px;
+  background-color: white;
+  width: 750px;
+}
+.overview-text {
+  padding-bottom: 20px;
+}
+#status {
+  display: flex;
+  gap: 50px;
+}
+.status1,
+.status2 {
+  display: flex;
+  gap: 10px;
+}
+#description,
+#Features {
+  margin: 20px 50px;
+  padding: 20px 40px;
+  background-color: white;
+  width: 750px;
+}
+.description-text,
+.feature-text {
+  padding-bottom: 20px;
+}
+#Features ul {
+  padding-left: 20px;
 }
