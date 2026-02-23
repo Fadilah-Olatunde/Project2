@@ -23,7 +23,7 @@
 
 .big-div {
   display: flex;
-  gap: 100px;
+  justify-content: space-evenly;
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
@@ -41,6 +41,9 @@
   background-color: green;
   color: white;
   border: transparent;
+}
+.fa-bars {
+  display: none !important;
 }
 .header {
   background: url("Images/pexels-rahmadhimawan-31949547.jpg");
@@ -265,4 +268,69 @@ hr {
 .right {
   display: flex;
   gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .big-div {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-evenly;
+  }
+  .fa-bars {
+    display: block !important;
+  }
+  .header {
+    height: 100vh;
+  }
+  .overlay {
+    height: 77.2vh;
+    padding-top: 50px;
+  }
+  .h1 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .body-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .second-image {
+    width: 100%;
+  }
+  .sub-body-section {
+    padding: 10px;
+  }
+  .form {
+    height: auto;
+    width: auto;
+  }
+  .form [type="submit"] {
+    /* width: auto; */
+  }
+  .form [type="text"],
+  .form [type="number"] {
+    width: 85%;
+  }
+  .form [type="submit"] {
+    width: 93%;
+  }
+  .map {
+    width: 80%;
+  }
+  .map-container {
+    width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+  }
 }
