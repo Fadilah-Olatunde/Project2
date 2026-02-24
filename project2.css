@@ -333,4 +333,33 @@ hr {
     padding: 10px;
     text-align: center;
   }
+  #status {
+    display: flex;
+    flex-direction: column;
+  }
+  #description,
+  #Features,
+  .overview,
+  #Payment-Plan,
+  #image-section,
+  #contact-section {
+    width: 80%;
+    margin: 10px;
+  }
+  .image-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+  .image-grid img {
+    width: 100%;
+    height: 90px;
+  }
+  #footer {
+    flex-wrap: wrap; /* allows items go to next row */
+    gap: 20px;
+    margin: 10px;
+    padding: 50px 20px 0px 20px;
+    width: 48%; /* two per row */
+  }
 }
