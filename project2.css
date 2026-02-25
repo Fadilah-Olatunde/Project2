@@ -334,8 +334,8 @@ hr {
     text-align: center;
   }
   #status {
-    display: flex;
     flex-direction: column;
+    gap: 5px;
   }
   #description,
   #Features,
@@ -343,7 +343,7 @@ hr {
   #Payment-Plan,
   #image-section,
   #contact-section {
-    width: 80%;
+    width: 72%;
     margin: 10px;
   }
   .image-grid {
@@ -356,10 +356,18 @@ hr {
     height: 90px;
   }
   #footer {
-    flex-wrap: wrap; /* allows items go to next row */
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
     margin: 10px;
     padding: 50px 20px 0px 20px;
-    width: 48%; /* two per row */
+    width: 100%;
+  }
+  a {
+    width: 100px;
+    text-wrap: wrap;
+  }
+  .Title-text {
+    font-size: 14px;
+    width: 150px;
   }
 }
